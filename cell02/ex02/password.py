@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 pwd = "PythonIsAwesome"
 userpwd = input()
 
