@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 i = 0
 if (len(sys.argv) > 1):
