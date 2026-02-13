@@ -22,8 +22,7 @@ def checkmate(board_string):
                 king_count += 1
                 king_pos = (i, j)
             if board[i][j] not in {'.', 'K', 'Q', 'R', 'B', 'P'}:
-                print("Error")
-                return
+                board[i][j] = '.'
     # print(king_count, king_pos)
     if king_count != 1:
         print("Error")
